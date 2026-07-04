@@ -83,6 +83,21 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://15.207.54.174:8081/repository/spring-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://15.207.54.174:8081/repository/spring-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <build>
+	
 	<build>
 		<plugins>
 			<plugin>
