@@ -83,7 +83,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	    </dependencies>
+	
 
     <distributionManagement>
         <repository>
@@ -96,7 +96,7 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <build>
+    
 	
 	<build>
 		<plugins>
